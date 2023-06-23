@@ -279,7 +279,7 @@ font-size: 15px;
     }
     body{
         position: relative;
-        background-size:490px 600px;
+        background-size:742px 600px;
 
         min-height:100vh ;
 
@@ -343,16 +343,190 @@ font-size: 15px;
     img{
         width: 100%;
     }
+
     .hso405{
-        position: relative;
-        right:-100px;
-        
+position: relative;
+left:300px;
+font-size: 15px;
+
     }
 }
 
 
 
 
+@media screen and  (max-height:400px){
+    .leg{
+        height: 350px;
+        width: 230px;
+        position:relative;
+        left:1px;
+        bottom:30px;
+        border-radius: 10px 10px 10px 10px;
+    
+    }
+    #nail{
+        position: relative;
+        font-size: 15px;
+        top: 20px;
+        
+    }
+    #name{
+        position: relative;
+        left: 20px;
+      width: 200px;
+      height:35px;
+      top: 20px;
+       
+    }
+    #name:hover{
+        border: 1.2px solid black;
+    }
+    #name::placeholder{
+        transform: translateX(15px);
+        font-size: 10px;
+        
+        }
+    #pass{
+        position: relative;
+        left: 20px;
+        width: 195px;
+        top: 10px;
+        height:35px;
+    }
+    #pass::placeholder{
+        transform: translateX(15px);
+        font-size: 10px;
+        }
+        #pass:hover{
+            border: 1.2px solid black;
+        }
+        .naruto{
+            color:rgb(42, 40, 40);
+            position: relative;
+            left:150px;
+            top:-30px;
+            font-size: 9px;
+    
+        }
+        .naruto:hover{
+            color:red;
+            cursor: pointer;
+        }
+        #in{
+            width: 200px;
+            position: relative;
+            left:22px;
+            border-radius: 8px;
+            border: 1px solid white;
+            background-color:pink;
+            height:35px;
+            top: -55px;
+        
+        }
+        #sakura{
+            position: relative;
+            left: 100px;
+            color: rgb(239, 212, 212);
+            top: -105px;
+        }
+        #lee{
+            position: relative;
+            left:30px;
+            top:-150px;
+            color:rgb(133, 125, 125);
+            font-size: 10px;
+        }
+        #victor{
+    
+            position: relative;
+            color:red;
+            left: 130px;
+            top:-173px;
+            font-size: 10px;
+        }
+        #victor:hover{
+            border-bottom: 1px solid red;
+            padding: 7px;
+            width: fit-content;
+            
+        }
+        body{
+            position: relative;
+            background-size:742px 600px;
+    
+            min-height:100vh ;
+    
+        }
+        #lap{
+             position: relative;
+             font-size: 5px;
+             right:2px;
+             color:red;
+        }
+        .ninja{
+            border-top:1px solid rgb(220, 212, 212);
+            position: relative;
+            top: -150px;
+            width: 175px;
+            left:30px;
+        }
+        #food{
+            position: relative;
+            top: -120px;
+            left:30px;
+            color: rgb(99, 91, 91);
+            font-size: 10px;
+            
+        }
+        #satoru{
+            border: 1px solid rgb(72, 71, 71);
+            border-radius: 100px 100px 100px 100px;
+            font-size: 5px;
+         }
+         .chair{
+            position: relative;
+            left: 130px;
+            top:-150px;
+            font-size: 5px;
+        }
+        #sharinga{
+            border: 1px solid rgb(72, 71, 71);
+            border-radius: 100px 100px 100px 100px;
+        }
+        .board{
+            position: relative;
+            left:180px;
+            top: -177px;
+    
+        }
+        #lap{
+            position: relative;
+            top:60px;
+            left:10px;
+            font-size: 8px;
+            color:black;
+        }
+        .blade{
+            position: relative;
+            width: 120px;
+           top: 30px;
+            left:10px;
+          
+        }
+        img{
+            width: 100%;
+        }
+    
+        .hso405{
+    position: relative;
+    left:300px;
+    font-size: 15px;
+    
+        }
+    }
+    
+    
 
 
 
