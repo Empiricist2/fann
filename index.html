@@ -9,19 +9,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="oran">
     <div class="hso405">
     <div class="blade">
    <img src="sign-logo2.png" alt="">
 </div>
 <div class="leg">
-    <h3 id="nail">Sign in to Mockplus</h3>
-    <input id="name" type="email" name="Email" size="40"  placeholder="Email">
+    <h3 class="nail">Sign in to Mockplus</h3>
+    <form id="registrationForm">
+        <div>
+             <label for="email"></label> 
+    <input id="name" type="email" name="Email"  onkeyup="validateemail()"  size="40"  placeholder="Email">
+    <span id="emailError" class="error"></span>
+</div>
 <p>
  <div class="towel">
 
  </div>
-        <input id="pass" type="password" name="password" size="40"  placeholder="Password">
+ <label form="password"></label>
+        <input id="pass" type="password" name="password" onkeyup="validatePassword()" size="40"  placeholder="Password">
+   <span id="passwordError" class="errors"></span>
     </p>
+</form>
     <div class="naruto">
         Forget Password
     </div>
@@ -47,11 +56,51 @@
 Privacy Policy Terms of Service
 </h3>
 </div>
-<!-- <script>
-    let myMessage=document.querySelector('.name');
-    
-    name.innerHTML = 'please enter a valid email';
-    if()
-</script> -->
+</div>
+<script>
+ const form = document.getElementById("registrationForm");
+ const email = document.getElementById("name");
+ const emailError = document.getElementById("emailError");
+ const emailformat = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+ function validateemail(){
+        if (!email.value) {
+                    emailError.textContent = "You must put a email";
+                    emailError.style.color = "red";
+                    
+                } else if (!email.value.match(emailformat)) {
+                    emailError.textContent = "please put a valid email ";
+                    emailError.style.color = "red";
+                    
+                    
+                } else {
+                    emailError.textContent = " valid email";
+                    emailError.style.color = "blue";
+                }
+    }
+
+
+    </script>
+    <script>
+        const formm= document.getElementById("registrationForm");
+        const password = document.getElementById("pass");
+        const passwordError = document.getElementById("passwordError");
+        const passformat = /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#\$%\^&])[a-zA-Z0-9!@#\$%\^&]{5,15}$/;
+        
+        function validatePassword(){
+            if (!password.value){
+                passwordError.textContent = "Input a password";
+                passwordError.style.color = "red"
+
+            }else if (!password.value.match(passformat)) {
+                passwordError.textContent = "Invalid password ";
+                passwordError.style.color = "red";
+
+            } else {
+                passwordError.textContent = "strong password";
+                passwordError.style.color = "blue";
+            }
+        }
+    </script>
 </body>
 </html>
