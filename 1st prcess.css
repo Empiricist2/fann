@@ -5,6 +5,9 @@ body{
     background-attachment: fixed;
     cursor: pointer;
 }
+body{
+    margin: 0px auto;
+}
 .blade{
     position: relative;
     width: 120px;
@@ -15,12 +18,24 @@ body{
 img{
     width: 100%;
 }
-#nail{
+.nail{
     color: black;
     position: relative;
     left:45px;
     bottom:-50px;
     font-size: 30px;
+}
+.error{
+position: relative;
+top:90px;
+font-size: 10px;
+right:50px;
+}
+.errors{
+    position: relative;
+    top:90px;
+    font-size: 10px;
+    right:30px;
 }
 #name{
     position: relative;
@@ -111,11 +126,11 @@ font-size: 15px;
     .leg{
         background: white;
         width:500px;
-        position: relative;
+      
         height: 510px;
-        left: 450px; 
+       margin: 0px auto; 
         border-radius: 30px 30px 30px 30px;
-        top:40px;
+        
      
     }
     .ninja{
@@ -173,15 +188,17 @@ font-size: 15px;
 #lap{
     position: relative;
     top:60px;
-    left:500px;
+    margin: 0px auto;
+    text-align: center;
     font-size: 15px;
     color:black;
 }
 
 
-
+/* 
 
 @media screen and  (max-width:768px){
+    
 .leg{
     height: 350px;
     width: 230px;
@@ -349,12 +366,233 @@ left:300px;
 font-size: 15px;
 
     }
+} */
+@media screen and (max-width:768px){
+       
+    body{
+
+    background-image: url(downl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: pointer;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+/* .blade{
+    position: relative;
+    width: 50px;
+   bottom: 70px;
+    left:70px;
+  
+} */
+img{
+    width: 100%;
+     position: relative;
+    width: 80px;
+   bottom: 50px;
+    left:70px;
 }
 
 
+.leg{
+        background: white;
+        width:370px;
+        height: 450px;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        top: 50%;
+        left:50%;
+       margin: 0px auto;  
+        border-radius: 30px 30px 30px 30px;
+        text-align: center;
+     
+    }
 
 
+.nail{
+
+        color: black;
+        transform: translate(50%);
+
+        position: absolute;
+        left:-10%;
+        top:1%;
+        font-size: 20px;
     
+}
+
+#in{
+    position: absolute;
+    transform: translate(50%);
+
+   left: -29%;
+   top:50%;
+   width: 300px;
+   height: 50px;
+   border-radius: 8px;
+   border: 1px solid white;
+   background-color:pink;
+   
+   }
+
+   #lap{
+    transform: translate(-50%,-50%);
+
+    position:absolute;
+    top:92%;
+    left:50%;
+
+
+    margin: 0px auto;
+    text-align: center;
+    font-size: 10px;
+    color:black;
+}
+#name{
+    position: relative;
+    left: 10px;
+    top: 55px;
+    width:300px;
+    height: 50px;
+    border-radius: 7px;
+    border:1px solid rgb(180, 173, 173);
+    margin: 8px 0;
+    outline: none;
+    box-sizing: border-box;
+    padding: px;
+    text-align: left;
+    
+}
+
+#name:hover{
+    border: 1.2px solid black;
+}
+#name::placeholder{
+transform: translateX(15px);
+font-size: 15px;
+
+}
+#pass{
+    position: relative;
+    left: 10px;
+    top: 55px;
+    width:300px;
+    height: 50px;
+    border-radius: 7px;
+    border:1px solid rgb(180, 173, 173);
+}
+#pass::placeholder{
+    transform: translateX(15px);
+    font-size: 15px;
+    }
+    #pass:hover{
+        border: 1.2px solid black;
+    }
+    
+.error{
+    position: absolute;
+    transform: translate(50%);
+
+    top:25%;
+    font-size: 8px;
+    right:20%;
+    }
+    .errors{
+        position: absolute;
+        transform: translate(50%);
+
+        top:43%;
+        font-size: 10px;
+        right:20%;
+    }
+    
+    .naruto{
+        color:rgb(42, 40, 40);
+        position: absolute;
+        left:60%;
+        top:34%;
+    }
+    .naruto:hover{
+        color:red;
+        cursor: pointer;
+    }
+    #lee{
+        position: absolute;
+        transform: translate(50%);
+
+        left:-10%;
+        bottom:25%;
+        color:rgb(133, 125, 125);
+        font-size: 18px;
+    }
+    
+    .ninja{
+        border-top:1px solid rgb(220, 212, 212);
+        position: absolute;
+        top: 79%;
+        width: 280px;
+        left:12%;
+    }
+    
+    #sakura{
+        position: absolute;
+        transform: translate(50%);
+
+        left: 38%;
+        color: rgb(239, 212, 212);
+        top: 49%;
+    }
+    
+    #victor{
+        position: absolute;
+        color:red;
+        left: 63%;
+        bottom:25%;
+        font-size: 18px;
+    }
+    #victor:hover{
+        border-bottom: 1px solid red;
+        padding: 7px;
+        width: fit-content;
+}
+#food{
+    position:absolute;
+    transform: translate(50%);
+
+    bottom: 5%;
+    left:1%;
+    color: rgb(99, 91, 91);
+    font-size: 15px;
+    
+}
+
+#satoru{
+    border: 1px solid rgb(72, 71, 71);
+    border-radius: 100px 100px 100px 100px;
+    
+ }
+ 
+.chair{
+    position: absolute;
+    transform: translate(50%);
+
+    left: 50%;
+    bottom:7%;
+}
+
+.board{
+    position: absolute;
+    transform: translate(50%);
+    left:65%;
+    bottom: 7%;
+}
+#sharinga{
+    border: 1px solid rgb(72, 71, 71);
+    border-radius: 100px 100px 100px 100px;
+}
+}
 
 
 
