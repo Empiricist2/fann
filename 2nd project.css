@@ -1,0 +1,141 @@
+body{
+    overflow:hidden ;
+} 
+.dropdown{
+    transform: translate(50%);
+    position: absolute;
+    right:3%;
+    bottom:720px;
+}
+
+.error{
+    font-size: 12px;
+    transform: translate(50%);
+    position: absolute;
+    bottom: 180px;
+    right: 27%;
+}
+
+.bring{
+    background-color: rgb(229, 188, 201);
+    width: 500px;
+    height: 689px;
+    position: relative;
+    right:10px;
+    bottom:18px;
+    
+}
+
+
+#robe{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left:55px;
+    top:70px;
+    cursor: pointer;
+    color:rgb(158, 137, 149);
+}
+#rule{
+position: relative;
+left:55px;
+top:20px;
+color:rgb(158, 137, 149);
+font-size: 35px;
+}
+#grab{
+    position: relative;
+    bottom:675px;
+    left:530px;
+    font-size: 10px;
+    padding:20px;
+    border: 1px solid rgb(205, 203, 203);
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    cursor: pointer;
+}
+#vee{
+    position: relative;
+    bottom:712px;
+    left:1050px;
+    font-weight: normal;
+    font-size: 15px;
+}
+#gee{
+    position: relative;
+    bottom:739px;
+    left:1160px;
+    color: blue;
+    font-weight: normal;
+    font-size: 15px;
+    cursor: pointer;
+}
+#forget{
+    position: relative;
+    bottom: 600px;
+    left:650px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+}
+#word{
+    position: relative;
+    font-size: 15px;
+    bottom:600px;
+    left:650px;
+    font-weight: normal;
+}
+#cure{
+    position: relative;
+    bottom: 570px;
+    left: 650px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#load{
+    position: relative;
+    left:650px;
+    bottom:580px;
+    height:10px;
+    width: 350px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid white;
+    background-color: rgb(228, 225, 225);
+    padding: 15px;
+    
+}
+#load:hover{
+    background-color: white;
+    box-shadow:0px 0px 2px 2px pink;
+ 
+}
+#pop{
+    position: relative;
+    bottom: 510px;
+    left: 295px;
+    height: 38px;
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(220, 73, 139);
+    color: white;
+    border:1px solid  rgb(220, 73, 139)
+}
+
+#pop:hover{
+    cursor: pointer;
+    background-color:rgb(225, 101, 157) ;
+}
+
+@media screen and (max-width:768px){
+    body{
+        overflow:hidden ;
+    } 
+    .bring{
+        background-color:white;
+        width: 800px;
+      
+    }
+    
+#rule{
+   transform: translate(50%);
+   
+    color:rgb(158, 137, 149);
+    }
+}
