@@ -127,7 +127,7 @@ font-size: 35px;
 
     #robe{
         font-family:cursive;
-        position: relative;
+        position: fixed;
         left:55px;
         top:70px;
         cursor: pointer;
@@ -144,6 +144,7 @@ font-size: 35px;
 }
 .bring{
     background: none;
+    
 }
 #rule{
     display: none;
@@ -159,14 +160,15 @@ font-size: 35px;
     display: none;
 }
 .dropdown{
-    transform:translate(50%);
-    bottom:645px;
+    transform:translate(80%);
+    bottom:625px;
     right:100px;
+    position: fixed;
    
    
 }
 .lov{
-   position: absolute;
+   position: fixed;
    right: 800px;
    
 
@@ -174,25 +176,25 @@ font-size: 35px;
 #forget{
     font-size: 20px;
     font-weight: bolder;
-   transform: translate(30%);
+   transform: translate(45%);
   
 }
 #word{
-    transform: translate(30%);
+    transform: translate(34%);
   font-size: 15px;
   white-space:nowrap;
 }
 
 #cure{
-    transform: translate(30%);
+    transform: translate(45%);
     font-weight: bold;
 }
 #load{
-    transform: translate(36%);
+    transform: translate(54%);
 }
 
 #pop{
-    transform: translate(236%);
+    transform: translate(254%);
     position: absolute;
     height: 38px;
         width: 350px;
