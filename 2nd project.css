@@ -164,8 +164,12 @@ font-size: 35px;
     bottom:625px;
     right:100px;
     position: fixed;
-   
-   
+
+}
+li{
+   background:rgb(161, 163, 21);
+  
+    font-weight: bolder;
 }
 .lov{
    position: fixed;
@@ -186,16 +190,16 @@ font-size: 35px;
 }
 
 #cure{
-    transform: translate(45%);
+    transform: translate(42%);
     font-weight: bold;
 }
 #load{
-    transform: translate(44%);
+    transform: translate(41%);
 
 }
 
 #pop{
-    transform: translate(244%);
+    transform: translate(241%);
     position: absolute;
     height: 38px;
         width: 350px;
