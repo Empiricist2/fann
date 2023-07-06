@@ -12,7 +12,7 @@ body{
     font-size: 12px;
     transform: translate(50%);
     position: absolute;
-    bottom: 180px;
+    bottom: 150px;
     right: 27%;
 }
 
@@ -124,18 +124,90 @@ font-size: 35px;
 }
 
 @media screen and (max-width:768px){
-    body{
-        overflow:hidden ;
-    } 
-    .bring{
-        background-color:white;
-        width: 800px;
-      
+
+    #robe{
+        font-family:cursive;
+        position: relative;
+        left:55px;
+        top:70px;
+        cursor: pointer;
+        color:rgb(12, 10, 11);
+        font-weight: bolder;
     }
     
+.error{
+    font-size: 12px;
+    transform: translate(50%);
+    position: absolute;
+    bottom: 200px;
+    right: 27%;
+}
+.bring{
+    background: none;
+}
 #rule{
-   transform: translate(50%);
+    display: none;
+}
+#grab{
+    display: none;
+    
+}
+#vee{
+    display: none;
+}
+#gee{
+    display: none;
+}
+.dropdown{
+    transform:translate(50%);
+    bottom:645px;
+    right:100px;
    
-    color:rgb(158, 137, 149);
-    }
+   
+}
+.lov{
+   position: absolute;
+   right: 800px;
+   
+
+}
+#forget{
+    font-size: 20px;
+    font-weight: bolder;
+   transform: translate(30%);
+  
+}
+#word{
+    transform: translate(30%);
+  font-size: 15px;
+  white-space:nowrap;
+}
+
+#cure{
+    transform: translate(30%);
+    font-weight: bold;
+}
+#load{
+    transform: translate(36%);
+}
+
+#pop{
+    transform: translate(236%);
+    position: absolute;
+    height: 38px;
+        width: 350px;
+        left: -50px;
+        border-radius: 10px 10px 10px 10px;
+        background-color: rgb(220, 73, 139);
+        color: white;
+        border:1px solid  rgb(220, 73, 139)
+}
+   
+#pop:hover{
+cursor: pointer;
+background-color:rgb(225, 101, 157) ;
+}
+
+
+
 }

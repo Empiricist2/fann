@@ -113,8 +113,8 @@ font-size: 15px;
     #victor{
         position: relative;
         color:red;
-        left: 230px;
-        bottom:123px;
+        left: 237px;
+        bottom:135px;
         font-size: 18px;
     }
     #victor:hover{
@@ -191,7 +191,7 @@ font-size: 15px;
     margin: 0px auto;
     text-align: center;
     font-size: 15px;
-    color:black;
+   color: rgba(255, 255, 255 , 1.0);
 }
 
 
@@ -270,7 +270,7 @@ img{
     margin: 0px auto;
     text-align: center;
     font-size: 10px;
-    color:black;
+    color: rgba(255, 255, 255 , 1.0);
 }
 #name{
     position: relative;
@@ -370,7 +370,7 @@ font-size: 15px;
     #victor{
         position: absolute;
         color:red;
-        left: 63%;
+        left: 67%;
         bottom:25%;
         font-size: 18px;
     }
