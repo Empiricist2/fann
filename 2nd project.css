@@ -160,7 +160,7 @@ font-size: 35px;
     display: none;
 }
 .dropdown{
-    transform:translate(80%);
+    transform:translate(65%);
     bottom:625px;
     right:100px;
     position: fixed;
@@ -174,7 +174,7 @@ font-size: 35px;
 
 }
 #forget{
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bolder;
    transform: translate(45%);
   
@@ -182,7 +182,7 @@ font-size: 35px;
 #word{
     transform: translate(34%);
   font-size: 15px;
-  white-space:nowrap;
+ 
 }
 
 #cure{
@@ -190,11 +190,12 @@ font-size: 35px;
     font-weight: bold;
 }
 #load{
-    transform: translate(54%);
+    transform: translate(44%);
+
 }
 
 #pop{
-    transform: translate(254%);
+    transform: translate(244%);
     position: absolute;
     height: 38px;
         width: 350px;
